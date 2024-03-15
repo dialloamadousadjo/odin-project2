@@ -1,6 +1,6 @@
 let playerScore = 0;
 let computerScore = 0;
-<<<<<<< HEAD
+const divResults = document.createElement("div");
 //function to generate randomly a string between ROCK, PAPER, SCISSORS
 function getComputerChoice() {
   let rockPaperScissorsArray = ["ROCK", "PAPER", "SCISSORS"];
@@ -48,8 +48,6 @@ function playGame() {
     playRound(userInput, getComputerChoice());
   }
 }
-=======
-const divResults = document.createElement("div");
 
 function getComputerChoice() {
   const choices = ["ROCK", "PAPER", "SCISSORS"];
@@ -124,4 +122,3 @@ choices.forEach((choice) => {
   });
   buttonsContainer.appendChild(button);
 });
->>>>>>> rps-ui
